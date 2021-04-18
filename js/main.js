@@ -25,7 +25,7 @@ function themeMode(){
             if(localStorage.getItem("theme") === "light"){
                   document.body.classList.remove("dark");
             }
-            else{
+            else{ 
                   document.body.classList.add("dark");
             }
 
